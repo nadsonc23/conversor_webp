@@ -6,11 +6,9 @@ from PIL import Image
 import os
 
 def converter_para_webp(pasta_origem, pasta_destino):
-    # Certifique-se de que a pasta de destino exista
     if not os.path.exists(pasta_destino):
         os.makedirs(pasta_destino)
 
-    # Listar todos os arquivos na pasta de origem
     arquivos = os.listdir(pasta_origem)
 
     for arquivo in arquivos:
