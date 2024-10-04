@@ -1,0 +1,8 @@
+Fiz esse código na época que comecei a desenvolver sites. O contexto foi o seguinte:
+ - Precisei fazer um sites para uma imobiliária sobre um determinado empreendimento. Era necessária a inserção de várias fotos do empreendimento.
+ - As fotos eram muito pesadas, o que acabava causando lentidão no site.
+
+Ao tentar utilizar sites que faziam conversão de PNG, JPG para WEBP, me deparei com vários gargalos como, principalmente com o limite diário de conversão.
+
+Conclusão:
+  Desenvolvi esse script simples para realizar a conversão em massa de imagens. Trazendo um resultado não só no volume de imagens convertidas simultaneamente, mas também na redução de cerca de 90% dos tamanhos das imagens.
